@@ -1,0 +1,31 @@
+{
+  "name": "rxhr-client",
+  "version": "0.0.0",
+  "description": "A Reactive XHR client",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xhr",
+    "client",
+    "reactive",
+    "rx",
+    "rxjs",
+    "http"
+  ],
+  "author": "Vitaly Tkachenko",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.15.1",
+    "tslint-loader": "^2.1.5",
+    "typedoc": "^0.4.5",
+    "webpack": "^2.1.0-beta.22"
+  },
+  "dependencies": {
+    "typescript": "^2.0.2"
+  }
+}
