@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
   context: path.resolve('src'),
-  entry: './hello-world.ts',
+  entry: './index.ts',
   output: {
     path: path.resolve('dist/'),
     filename: 'rxhr-client.js'
