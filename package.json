@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack -w",
     "build": "webpack",
-    "test": "mocha --opts mocha.opts"
+    "test": "mocha --opts mocha.opts",
+    "test:watch": "mocha --opts mocha.opts --watch"
   },
   "keywords": [
     "xhr",
@@ -30,11 +31,10 @@
     "ts-node": "^1.6.1",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
-    "typedoc": "^0.4.5",
     "webpack": "^2.1.0-beta.22"
   },
   "dependencies": {
-    "typescript": "^2.0.2"
+    "typescript": "^2.0.6"
   },
   "config": {
     "ghooks": {
